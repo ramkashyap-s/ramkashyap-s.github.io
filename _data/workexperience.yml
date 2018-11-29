@@ -1,0 +1,27 @@
+-
+  title: Software Developer Intern
+  description: >
+    Developed new features for the dashboards using AngularJS and D3.js and created back end API’s using PHP and Phalcon
+    for the company’s security offering and reduced the time required to initiate the user actions by 50 percent
+  location: Salt Lake City
+  date: August 2018
+  company: Monarx
+-
+  title: Software Developer Intern
+  description: >
+    Created supervised learning models to predict outpatient enrollments based on the air quality data with an 
+    accuracy of 81 percent. Performed data processing and created feature vectors that were fed into a stacked model
+  location: Salt Lake City
+  date: August 2017
+  company: IHC
+-
+  title: Software Engineer
+  description: >
+    Created UI automation regression suite and test data creation suite in Java using Selenium and UFT and reduced the
+    test execution time by 60 percent. 
+    Implemented AutoPay module for a banking application built on Spring MVC framework.
+    Developed Java web service APIs for internal consumption and decreased data creation time by 40 percent.
+    Conducted sprint retrospective and review meetings, and product review meetings.    
+  location: Salt Lake City
+  date: May 2016
+  company: Tech Mahindra

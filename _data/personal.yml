@@ -1,0 +1,21 @@
+name: Ram Kashyap Seethamraju
+
+label: Masters student in Computer Science
+
+picture: /img/headshot_old.png
+
+email: firstname.lastname@gmail.com
+
+profiles:
+  -
+    network: LinkedIn
+    url: https://www.linkedin.com/in/ram-kashyap-seethamraju-18847338/
+  -
+    network: Github
+    url: https://github.com/ramkashyap-s
+
+intro:
+  title: Hello!
+  body: >
+    I'm a graduate student in computer science at University of Utah.
+    Before that I worked as a Software Engineer for two years, building web applications at [Tech Mahindra](https://www.techmahindra.com/pages/default.aspx), India.
