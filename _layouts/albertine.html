@@ -124,47 +124,6 @@ It is threatened by habitat loss.
     </div>
   </div>
 
-  {% if site.data.publications.size > 0 %}
-  <div class="container">
-    <div class="row">
-      <section class="col-md-9">
-        <h3>Publications</h3>
-
-        {% for publication in site.data.publications %}
-          <p>
-            <b>
-              <a href="{{ publication.pdf }}">
-                {{ publication.title }}
-              </a>
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.authors }}
-            <br>
-            {% case publication.type %}
-              {% when 'conference' %}
-                {{ publication.conference }}
-              {% when 'dissertation' %}
-                {{ publication.publisher }}
-              {% when 'journal' %}
-                {{ publication.journal }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
-              {% when 'magazine' %}
-                {{ publication.magazine }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
-            {% endcase %}
-          </p>
-        {% endfor %}
-      </section>
-    </div>
-  </div>
-  {% endif %}
 
   {% if site.data.projects.size > 0 %}
   <!-- ==================== -->
@@ -229,22 +188,27 @@ It is threatened by habitat loss.
                     col-sm-3
                     col-md-3
                     col-lg-2">
-          <p>
-            <img src="{{ site.baseurl }}{{ project.image }}" 
-                 class="img-responsive img-thumbnail"
-                 style="width:100%">
+          <p>   
+            <b>        
+              {{ experience.company }}
+            </b>
+            <br>
+            <small>
+              {{ experience.startdate }} - {{ experience.enddate }}
+            </small>
+            <br>
+              {{ experience.location }}
           </p>
         </div>
         <div class="col-xs-12
                     col-sm-9
                     col-md-6
                     col-lg-7">
-          <p>
+          <!-- <p> -->
             <b>
-              {{ experience.name }}
+              {{ experience.title }}
             </b>
-          </p>
-
+          <!-- </p> -->
           {{ experience.description | markdownify }}
         </div>
       </div>
@@ -292,7 +256,7 @@ It is threatened by habitat loss.
   <!-- ==================== -->
   <!-- FOOTER -->
   <!-- ==================== -->
-  <footer>
+  <!-- <footer>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -310,7 +274,7 @@ It is threatened by habitat loss.
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- ==================== -->
   <!-- JAVASCRIPTS -->
