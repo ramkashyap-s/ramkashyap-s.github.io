@@ -3,16 +3,21 @@
   description: >
     Developed new features for the dashboards using AngularJS and D3.js and created back end API’s using PHP and Phalcon
     for the company’s security offering and reduced the time required to initiate the user actions by 50 percent.
+  tools: PHP, AngularJS, MySQL, Phalcon, D3
   location: Salt Lake City
   startdate: May 2018
   enddate: July 2018
   company: Monarx
 -
-  title: Software Developer Intern
+  title: I.T Intern
   description: >
     Created supervised learning models to predict outpatient enrollments based on the air quality data with an 
     accuracy of 81 percent.
-    Performed data processing and created feature vectors that were fed into a stacked model.
+    Performed data processing and created feature vectors that were fed into a stacked model. 
+    <br>
+    Created test scripts for a new clinical workflow tool and perfomed QA on clinical workflows and iCentra applications.
+  tools: Python, D3, Bootstrap, JavaScript, scikit-learn
+
   location: Salt Lake City
   startdate: May 2017
   enddate: Aug 2017
@@ -20,12 +25,12 @@
 -
   title: Software Engineer
   description: >
-    Created UI automation regression suite and test data creation suite in Java using Selenium and UFT and reduced the
+    Created automation regression suite and test data creation suite using Selenium (Java) and UFT and reduced the
     test execution time by 60 percent. <br>
     Implemented AutoPay module for a banking application built on Spring MVC framework. <br>
     Developed Java web service APIs for internal consumption and decreased data creation time by 40 percent. <br>
     Conducted sprint retrospective and review meetings, and product review meetings.    
-  location: Salt Lake City
+  location: Hyderabad, India
   startdate: Oct 2013
   enddate: June 2016
   company: Tech Mahindra

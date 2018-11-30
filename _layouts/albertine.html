@@ -152,7 +152,7 @@ It is threatened by habitat loss.
                     col-md-6
                     col-lg-7">
           <p>
-            <b>
+            <b style="font-size:18px">        
               {% if project.url %}
                 <a href="{{ project.url }}">
                   {{ project.name }}
@@ -188,7 +188,7 @@ It is threatened by habitat loss.
                     col-md-3
                     col-lg-2">
           <p>   
-            <b>        
+            <b style="font-size:18px">        
               {{ experience.company }}
             </b>
             <br>
@@ -203,11 +203,9 @@ It is threatened by habitat loss.
                     col-sm-9
                     col-md-6
                     col-lg-7">
-          <!-- <p> -->
-            <b>
+            <b style="font-size:18px">        
               {{ experience.title }}
             </b>
-          <!-- </p> -->
           {{ experience.description | markdownify }}
         </div>
       </div>
@@ -215,65 +213,6 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
-
-  {% if site.data.presentations.size > 0 %}
-  <!-- ==================== -->
-  <!-- PRESENTATIONS -->
-  <!-- ==================== -->
-  <section class="container">
-    <div class="row">
-      <div class="col-md-9">
-        <h3>Presentations</h3>
-      </div>
-    </div>
-
-    {% for presentation in site.data.presentations %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
-            <b>
-              {% if presentation.slides_url %}
-                <a href="{{ presentation.slides_url }}">
-                  {{ presentation.title }}
-                </a>
-              {% else %}
-                {{ presentation.title }}
-              {% endif %}
-            </b>
-            <small>
-              {{ presentation.date }}
-            </small>
-            <br>
-            {{ presentation.location }}
-          </p>
-        </div>
-      </div>
-    {% endfor %}
-  </section>
-  {% endif %}
-
-  <!-- ==================== -->
-  <!-- FOOTER -->
-  <!-- ==================== -->
-  <!-- <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">          
-          <img src="{{ site.baseurl }}/img/elbowpatched-icon.svg" alt="Elbowpatched"
-               style="float:left;margin-right:5px;width:20px;height:20px;">
-          Powered by 
-          <a href="http://www.elbowpatched.com">
-            Elbowpatched
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer> -->
 
   <!-- ==================== -->
   <!-- JAVASCRIPTS -->

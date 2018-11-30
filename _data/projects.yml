@@ -1,14 +1,44 @@
 -
+  name: 'SimpleDB Database Kernel'
+  description: >
+    Developed SimpleDB database kernel in Java. It uses Heap files, Buffer Management and indexing support as in standard
+    databases. Also, implemented transaction control and recovery.
+  image: /img/simpledb.png
+  url: http://www.cs.bc.edu/~sciore/simpledb/intro.html
+  tools: Java, JUnit, Ant, Bitbucket 
+-
   name: 'TMDB movie dataset visualization'
   description: >
     Created exploratory visualizations to show connections between movies, actors and directors from the movie metadata
     using D3.js, JavaScript and Bootstrap.
-  image: /img/proj1.png
+  image: /img/tmdb.png
   url: https://ramkashyap-s.github.io/IMDb-5000-Viz/
+  tools: D3, Bootstrap, JavaScript, Node.js
+-
+  name: 'Social network analysis on Yelp data'
+  description: >
+    Determined the most influential users for a queried business with an accuracy of 84 percent using Page Rank and
+    Centrality on a network graph. 
+    <br>The network graph is constructed from the Yelp social network dataset using users as nodes and edge weights are determined by several similarity metrics.  
+  image: /img/yelp.png
+  url: https://github.com/ramkashyap-s/Social-network-analysis-on-Yelp-data/blob/master/Final%20Report%20-%20Group%2037.pdf
 -
   name: 'Visualizing Random forest and Decision trees models'
   description: >
     Created an interactive app to visualize how data would be classified using machine learning models like Decision trees
     and Random forest using D3.js, Python and Flask.
-  image: /img/proj2.png
+  image: /img/randomforest.png
   url: https://github.com/ramkashyap-s/visualizing-random-forest
+  tools: Python, D3, Bootstrap, JavaScript, scikit-learn, Flask, jQuery 
+
+# -
+#   name: 'Housing price prediction'
+#   description: >
+#     Implemented ML algorithms like decision trees, perceptron, gradient descent and SVM in python. <br>
+#     Created different house price prediction models by using Lasso, Random forest, GBM and stacking and achieved an
+#     accuracy of 84 percent. Also, worked on feature selection, exploratory data analysis and visualization.  
+  # image: /img/proj2.png
+  # url: https://github.com/ramkashyap-s/visualizing-random-forest
+
+
+
