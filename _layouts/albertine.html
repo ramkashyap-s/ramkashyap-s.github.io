@@ -94,15 +94,12 @@ It is threatened by habitat loss.
       <section class="col-md-offset-1 col-md-3">
         <h3>Contact</h3>
         <p>
-          {{ site.data.personal.email | replace:'@',' <small>[at]</small> ' | replace:'.',' <small>[dot]</small> ' }}
-        </p>
-        <!-- <p>
-          {{ site.data.personal.department }}<br>
-          {{ site.data.personal.institution }}<br>
-          {{ site.data.personal.mailing_address | replace:'\n','<br>' }}
-        </p> -->
-
-        <p>
+          <i class="fa fa-envelope"></i>
+          {{ site.data.personal.email }}
+          <!-- | replace:'@',' <small>[at]</small> ' | replace:'.',' <small>[dot]</small> '  -->
+        <!-- </p> -->
+        <!-- <p> -->
+          <br>
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'LinkedIn' %}
@@ -111,6 +108,8 @@ It is threatened by habitat loss.
               <i class="fa fa-twitter-square"></i>
             {% elsif profile.network == 'Github' %}
               <i class="fa fa-github-square"></i>
+            {% elsif profile.network == 'Resume' %}
+              <i class="fa fa-file-pdf-o" ></i>
             {% endif %}
             <a href="{{ profile.url }}">
               {{ profile.network }}

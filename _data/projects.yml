@@ -1,14 +1,14 @@
 -
-  name: 'Visualizing Random forest and Decision trees models'
+  name: 'TMDB movie dataset visualization'
   description: >
-    Created an interactive app to visualize how data would be classified using machine learning models like Decision trees
-    and Random forest using D3.js, Python and Flask.
-  image: /img/proj.PNG
+    Created exploratory visualizations to show connections between movies, actors and directors from the movie metadata
+    using D3.js, JavaScript and Bootstrap.
+  image: /img/proj1.png
   url: https://ramkashyap-s.github.io/IMDb-5000-Viz/
 -
   name: 'Visualizing Random forest and Decision trees models'
   description: >
     Created an interactive app to visualize how data would be classified using machine learning models like Decision trees
     and Random forest using D3.js, Python and Flask.
-  image: /img/proj.PNG
-  url: https://ramkashyap-s.github.io/IMDb-5000-Viz/
+  image: /img/proj2.png
+  url: https://github.com/ramkashyap-s/visualizing-random-forest

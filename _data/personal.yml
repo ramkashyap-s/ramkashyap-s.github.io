@@ -13,10 +13,13 @@ profiles:
   -
     network: Github
     url: https://github.com/ramkashyap-s
+  -
+    network: Resume
+    url: https://drive.google.com/file/d/1OhZ0ShK01egetq0-MeGNG2FVSR--wgF1/view
 
 intro:
   title: Hello!
   body: >
-    I'm a graduate student in computer science at University of Utah.
-    Before that I worked as a Software Engineer for two years, building web applications at [Tech Mahindra](https://www.techmahindra.com/pages/default.aspx), India.
-    In my free time I sketch, [read books](https://www.goodreads.com/user/show/89977565-ram) and explore classical music
+    I am a graduate student in computer science at University of Utah.
+    Before that I worked as a Software Engineer for two years, building web applications and writing test scripts at [Tech Mahindra](https://www.techmahindra.com/pages/default.aspx), India.
+    In my free time I [sketch](https://www.pinterest.com/srkashyap117/random-sketches/), [read books](https://www.goodreads.com/review/list/89977565-ram) and explore classical music
