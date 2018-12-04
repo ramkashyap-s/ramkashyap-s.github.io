@@ -111,7 +111,7 @@ It is threatened by habitat loss.
             {% elsif profile.network == 'Resume' %}
               <i class="fa fa-file-pdf-o" ></i>
             {% endif %}
-            <a href="{{ profile.url }}">
+            <a href="{{ profile.url }}"target="_blank">
               {{ profile.network }}
             </a>
             {% if forloop.last == false %}
@@ -154,7 +154,7 @@ It is threatened by habitat loss.
           <p>
             <b style="font-size:18px">        
               {% if project.url %}
-                <a href="{{ project.url }}">
+                <a href="{{ project.url }}"target="_blank">
                   {{ project.name }}
                 </a>
               {% else %}
