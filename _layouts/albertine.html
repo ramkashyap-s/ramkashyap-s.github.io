@@ -25,7 +25,7 @@ It is threatened by habitat loss.
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.data.personal.name }}</title>
+  <title >{{ site.data.personal.name }}</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
@@ -53,7 +53,7 @@ It is threatened by habitat loss.
     <div class="container">
       <div class="row">
         <div class="col-xs-9 col-lg-9">
-          <h1>
+          <h1 style = "font-size: 1.6em;">
             {{ site.data.personal.name }}
           </h1>
           <h2>
@@ -92,14 +92,14 @@ It is threatened by habitat loss.
         
       </section>
       <section class="col-md-offset-1 col-md-3">
-        <h3>Contact</h3>
-        <p>
-          <i class="fa fa-envelope"></i>
-          {{ site.data.personal.email }}
+        <h3 style="font-size:34px;">Contact</h3>
+        <p style = "font-size: 1.1em;">
+          <nobr><i class="fa fa-envelope"></i>
+          {{ site.data.personal.email }}</nobr>
           <!-- | replace:'@',' <small>[at]</small> ' | replace:'.',' <small>[dot]</small> '  -->
         <!-- </p> -->
         <!-- <p> -->
-          <br>
+          <br><nobr>
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'LinkedIn' %}
@@ -113,7 +113,7 @@ It is threatened by habitat loss.
             {% endif %}
             <a href="{{ profile.url }}"target="_blank">
               {{ profile.network }}
-            </a>
+            </a></nobr>
             {% if forloop.last == false %}
               <br>
             {% endif %}

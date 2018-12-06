@@ -85,6 +85,7 @@ section {
   .intro-screen a:hover {
     color:#fff59d;
   }
+  .nobr { white-space: nowrap }
 
 /*******************
  * TRANSITIONS
